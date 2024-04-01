@@ -33,7 +33,6 @@ streamlit run localama.py
 ### Download the quantize model from the link provided in model folder & keep the model in the model directory:
 
 ```ini
-## Download the Ollama :
 
 https://ollama.com/download
 
@@ -43,4 +42,16 @@ https://ollama.com/download
 ```bash
 ollama run llama2 
 ```
+### Create a project name and add it in the .env file along with langchain API key.
 
+```bash
+LANGCHAIN_API_KEY="YOUR_API_KEY"
+LANGCHAIN_PROJECT="YOUR_PROJECT_NAME"
+```
+
+### You can go to the langsmith dashboard and monitor the traces. Below is the link.
+```ini
+
+https://smith.langchain.com/
+
+```
